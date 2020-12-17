@@ -1,17 +1,17 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div id="app" class="w-2/4 mx-auto">
+    <DoubleRange />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import DoubleRange from "./components/DoubleRange.vue";
+
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    DoubleRange
   }
 };
 </script>
